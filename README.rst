@@ -17,6 +17,7 @@ from the truthtable, even though we just simulate a simple 2D convolution.
 Therefore, we want to focus on how to speed up the time for the simulation. 
 
 Here are some information for this work: 
+
 - GitHub Repository: `Hardware Aging Acceleration <https://github.com/zona8815/Hardware-Aging-Acceleration>`__
 - Coding
     - C++ and Python
@@ -44,6 +45,7 @@ Prospective Users
 -----------------
 
 This work is mainly for whom focus on aging of the AI Accelerator, including: 
+
 - Hardware designers and researchers: 
     They can simulate the problems caused by the aging of MOS efficiently. 
 - My lab partners
@@ -52,6 +54,7 @@ System Architecture
 -------------------
 
 We can seperate this work into few categories: 
+
 - Aging simulation results (in advanced): MOSRA
 - Calculation of MAC operation: C++
 - CNN: Python
@@ -60,8 +63,8 @@ We can seperate this work into few categories:
 API Description
 ---------------
 
-- Calculation of MAC operation: `truthtable.h <>`__,  `multiplier.h <>`__
-- CNN (2D convolution): `myconv2d.py <>`__
+- Calculation of MAC operation: `truthtable.h <zona8815/src/truthtable.h>`__,  `multiplier.h <zona8815/src/multiplier.h>`__
+- CNN (2D convolution): `myconv2d.py <zona8815/src/myconv2d.py>`__
 
 Engineering Infrastructure
 --------------------------
@@ -80,33 +83,40 @@ Schedule
 --------
 
 Week 1 (04/08)
+
 - Build the truthtable
 
 Week 2 (04/15)
+
 - Build the CNN architecture in Python
 - Complete the requirements in ``CMakeLists.txt``
 
 Week 3 (04/22)
+
 - Build the multiplication operation in C++
 - Search for the methods to speed up
 - Build the unit tests
 
 Week 4 (04/29)
+
 - Try to speed up the multiplication operation
 - Combine with the Pybind11
 - Build the unit tests
 
 Week 5 (05/06)
+
 - Try to speed up the multiplication operation
 - Complete the todo lists above
 - Examine the API format and ``CMakeLists.txt`` is reasonable or not
     - Adjust if they need
 
 Week 6 (05/13)
+
 - Try to speed up the multiplication operation
 - Visualization the comparision
 
 Week 7 (05/20)
+
 - Try to speed up the multiplication operation
 - Visualization the comparision
 - Complete the todo lists above
@@ -115,6 +125,7 @@ Week 7 (05/20)
 - Prepare presentation (1/2)
 
 Week 8 (05/27)
+
 - Flexible week
 - Test the whole project
 - Prepare presentation (2/2)
@@ -122,5 +133,7 @@ Week 8 (05/27)
 References 
 ----------
 
-- ` <>`__
-- ` <>`__
+- `HSPICE® User Guide: Simulation and Analysis Version B-2008.09, September 2008 
+<https://cseweb.ucsd.edu/classes/wi10/cse241a/assign/hspice_sa.pdf>`__
+
+
