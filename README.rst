@@ -64,7 +64,7 @@ API Description
 ---------------
 
 - Calculation of MAC operation: `truthtable.h <https://github.com/zona8815/Hardware-Aging-Acceleration/blob/main/src/truthtable.h>`__,  `multiplier.h <https://github.com/zona8815/Hardware-Aging-Acceleration/blob/main/src/multiplier.h>`__
-- CNN (2D convolution): `https://github.com/zona8815/Hardware-Aging-Acceleration/blob/main/src/myconv2d.py>`__
+- CNN (2D convolution): `myconv2d.py <https://github.com/zona8815/Hardware-Aging-Acceleration/blob/main/src/myconv2d.py>`__
 
 Engineering Infrastructure
 --------------------------
