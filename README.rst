@@ -75,6 +75,7 @@ API Description
 - **The truthtable by the aging**
 
 .. code-block:: cpp
+
     // truthtable.h
     int TableHalfAdder(int a, int b);
     int TableFullAdder(int a, int b, int c);
@@ -82,6 +83,7 @@ API Description
 - **Calculation of MAC operation**
 
 .. code-block:: cpp
+
     // multiplier.h 
     Multiplier::Multiplier() : a_(0), b_(0), c_(0) {}
 
@@ -100,6 +102,7 @@ API Description
 - **CNN (2D convolution)**
 
 .. code-block:: python
+    
     # myconv2d.py
     # self-defined convolution
     import torch
