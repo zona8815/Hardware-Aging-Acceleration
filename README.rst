@@ -76,12 +76,9 @@ API Description
 
 .. code-block:: cpp
     // truthtable.h
-    int TableHalfAdder(int a, int b) {
-        return a, b;
-    }
-    int TableFullAdder(int a, int b, int c) {
-        return a, b, c;
-    }
+    int TableHalfAdder(int a, int b);
+    int TableFullAdder(int a, int b, int c);
+
 
 - **Calculation of MAC operation**
 
@@ -101,6 +98,7 @@ API Description
     Multiplier HalfAdder(std::size_t a, std::size_t b);
     Multiplier FullAdder(std::size_t a, std::size_t b, std::size_t c);
 
+
 - **CNN (2D convolution)**
 
 .. code-block:: python
@@ -119,6 +117,7 @@ API Description
         def forward(self, input):
         
     def myconv2d(input, weight, bias=None, stride=1, padding=0, dilation=1, groups=1):
+
 
 Engineering Infrastructure
 --------------------------
