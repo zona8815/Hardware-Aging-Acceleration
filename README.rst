@@ -74,7 +74,7 @@ API Description
 
 - **The truthtable by the aging**
 
-```c++
+```cpp
 // truthtable.h
 int TableHalfAdder(int a, int b) {
     return a, b;
@@ -86,7 +86,7 @@ int TableFullAdder(int a, int b, int c) {
 
 - **Calculation of MAC operation**
 
-```c++
+```cpp
 // multiplier.h
 Multiplier::Multiplier() : a_(0), b_(0), c_(0) {}
 
@@ -106,6 +106,8 @@ Multiplier FullAdder(std::size_t a, std::size_t b, std::size_t c);
 - **CNN (2D convolution)**
 
 ```python
+# myconv2d.py
+# self-defined convolution
 import torch
 from torch.nn.modules.utils import _pair
 
@@ -119,7 +121,6 @@ class MyConv2d(torch.nn.modules.conv._ConvNd):
     def forward(self, input):
     
 def myconv2d(input, weight, bias=None, stride=1, padding=0, dilation=1, groups=1):
-
 ```
 
 Engineering Infrastructure
